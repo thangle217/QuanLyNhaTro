@@ -1,0 +1,43 @@
+﻿<div id="taikhoanSection" style="display:none;" class="animate-fade-in account-page">
+    <div class="account-hero-card">
+        <div class="account-hero-left">
+            <div id="profileAvatarBig" class="profile-avatar-big">A</div>
+            <div class="account-hero-text">
+                <div class="account-kicker">Tài khoản của tôi</div>
+                <div id="profileDisplayName" class="account-hero-name">—</div>
+                <div class="account-hero-meta">
+                    <span id="profileDisplayRole"><span class="badge badge-teal">—</span></span>
+                    <span><i class="fas fa-envelope"></i> <span id="profileDisplayEmail">—</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="account-hero-actions">
+            <button type="button" class="btn btn-primary" onclick="openProfileEditModal()" id="quickEditProfileBtn">
+                <i class="fas fa-user-pen"></i> Cập nhật hồ sơ
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="openChangePasswordModal()">
+                <i class="fas fa-key"></i> Đổi mật khẩu
+            </button>
+        </div>
+    </div>
+
+    <div class="account-shell account-shell-single">
+        <div class="account-main-column account-main-full">
+
+            <!-- Thông tin cá nhân – chiếm toàn bộ chiều rộng -->
+            <div class="account-card account-profile-card">
+                <div class="account-card-header clean-header">
+                    <div>
+                        <div class="account-section-eyebrow">Hồ sơ</div>
+                        <h3>Thông tin cá nhân</h3>
+                    </div>
+                    <div class="card-icon icon-teal"><i class="fas fa-id-badge"></i></div>
+                </div>
+                <div class="account-card-body" id="profileInfoBody">
+                    <div class="account-loading"><i class="fas fa-spinner fa-spin"></i> Đang tải...</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

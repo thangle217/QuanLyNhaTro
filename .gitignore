@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+
+# Local machine configuration
+appsettings.Local.json
+
+# IDE/editor files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+Desktop.ini
